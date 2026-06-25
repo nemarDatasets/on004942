@@ -1,14 +1,20 @@
 {
-    "ReferencesAndLinks": [
-        "None"
-    ],
-    "Authors": [
-        "Paul Kieffaber",
-        "Makenna McGill"
-    ],
-    "Name": "SpatialMemory",
-    "License": "CC0",
-    "BIDSVersion": "1.8.0",
-    "HEDVersion": "8.1.0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds004942.v1.0.0"
+  "ReferencesAndLinks": [
+    "None"
+  ],
+  "Authors": [
+    "Paul Kieffaber",
+    "Makenna McGill"
+  ],
+  "Name": "SpatialMemory",
+  "License": "CC0",
+  "BIDSVersion": "1.8.0",
+  "HEDVersion": "8.1.0",
+  "DatasetDOI": "10.82901/nemar.on004942",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004942.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
