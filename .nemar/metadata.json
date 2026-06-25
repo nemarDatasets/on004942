@@ -1,46 +1,15 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "SpatialMemory",
+  "description": "This dataset contains electroencephalography (EEG) recordings from a visuo-spatial working memory task designed to investigate oscillatory neural dynamics during sequence encoding and recall across age groups. Participants performed a computerized spatial span task while EEG was recorded to examine theta and gamma band oscillations and their phase-amplitude coupling. The study aims to elucidate the neural mechanisms supporting visuo-spatial working memory for sequences and characterize potential changes in these processes during healthy cognitive aging.",
+  "methods_description": "EEG recordings were collected during a computerized spatial span task. Participants encoded and recalled sequences of spatial locations while neural oscillatory activity in the theta and gamma frequency bands was measured. Analysis focused on item-level oscillatory dynamics during both encoding and recall phases, with examination of gamma band power and theta-gamma phase-amplitude coupling across serial positions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Paul Kieffaber": {},
     "Makenna McGill": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004942.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004942",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004942",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset comprises electroencephalography (EEG) recordings from a visuo-spatial working memory task designed to investigate oscillatory neural dynamics underlying sequence encoding and recall. Participants performed a computerized spatial span task while EEG was recorded to examine theta and gamma band oscillations across younger and older adults. The study examines item-level neural correlates of memory encoding and retrieval, with particular focus on gamma band activity during encoding and theta-gamma phase-amplitude coupling during recall.",
-  "methods_description": "Participants completed a computerized spatial span task during EEG recording. Neural oscillatory activity was analyzed in the theta and gamma frequency bands during sequence encoding and item-level recall phases. Analyses included examination of gamma band power dynamics and theta-gamma phase-amplitude coupling across serial positions and age groups.",
   "keywords": [
     {
       "term": "EEG"
@@ -62,22 +31,39 @@
     },
     {
       "term": "cognitive aging"
-    },
-    {
-      "term": "sequence encoding"
-    },
-    {
-      "term": "sequence recall"
-    },
-    {
-      "term": "older adults"
-    },
-    {
-      "term": "visuo-spatial working memory"
-    },
-    {
-      "term": "spatial span task"
     }
   ],
-  "source_hash": "bc06470973beef479d1cb570f8fb3691b48133176282346373d4b66a39b35696"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004942",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004942",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004942.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "26.9 GB (125 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "ee8ddc4f87aa1b58ee92f20e2e2a5f8648fab51bc36334ddd591f51a7813c660"
 }
