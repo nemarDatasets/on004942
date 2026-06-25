@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SpatialMemory",
-  "description": "This dataset contains electroencephalography (EEG) recordings from a visuo-spatial working memory task designed to investigate oscillatory neural dynamics during sequence encoding and recall across age groups. Participants performed a computerized spatial span task while EEG was recorded to examine theta and gamma band oscillations and their phase-amplitude coupling. The study aims to elucidate the neural mechanisms supporting visuo-spatial working memory for sequences and characterize potential changes in these processes during healthy cognitive aging.",
-  "methods_description": "EEG recordings were collected during a computerized spatial span task. Participants encoded and recalled sequences of spatial locations while neural oscillatory activity in the theta and gamma frequency bands was measured. Analysis focused on item-level oscillatory dynamics during both encoding and recall phases, with examination of gamma band power and theta-gamma phase-amplitude coupling across serial positions.",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from a visuo-spatial working memory task designed to investigate oscillatory neural dynamics during sequence encoding and recall across age groups. Participants performed a computerized spatial span task while EEG was recorded to examine theta and gamma band oscillations and their phase-amplitude coupling. The study aims to elucidate the neural mechanisms supporting visuo-spatial working memory for sequences and characterize potential age-related changes in these processes.",
+  "methods_description": "EEG data were collected during a computerized spatial span task. Participants encoded and recalled sequences of spatial locations while oscillatory activity in the theta and gamma frequency bands was recorded. Analysis focused on item-level neural dynamics during both encoding and recall phases, with examination of gamma band power and theta-gamma phase-amplitude coupling across serial positions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
