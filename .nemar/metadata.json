@@ -1,28 +1,83 @@
 {
   "version": "2.0",
-  "dataset_id": "on004942",
-  "source": "openneuro",
-  "source_id": "ds004942",
+  "pipeline_stage": "enriched",
   "title": "SpatialMemory",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Paul Kieffaber": {},
     "Makenna McGill": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004942.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004942",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004942",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from a visuo-spatial working memory task designed to investigate oscillatory neural dynamics underlying sequence encoding and recall. Participants performed a computerized spatial span task while EEG was recorded to examine theta and gamma band oscillations across younger and older adults. The study examines item-level neural correlates of memory encoding and retrieval, with particular focus on gamma band activity during encoding and theta-gamma phase-amplitude coupling during recall.",
+  "methods_description": "Participants completed a computerized spatial span task during EEG recording. Neural oscillatory activity was analyzed in the theta and gamma frequency bands during sequence encoding and item-level recall phases. Analyses included examination of gamma band power dynamics and theta-gamma phase-amplitude coupling across serial positions and age groups.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "spatial cognition"
+    },
+    {
+      "term": "gamma oscillations"
+    },
+    {
+      "term": "theta oscillations"
+    },
+    {
+      "term": "phase-amplitude coupling"
+    },
+    {
+      "term": "cognitive aging"
+    },
+    {
+      "term": "sequence encoding"
+    },
+    {
+      "term": "sequence recall"
+    },
+    {
+      "term": "older adults"
+    },
+    {
+      "term": "visuo-spatial working memory"
+    },
+    {
+      "term": "spatial span task"
+    }
+  ],
+  "source_hash": "bc06470973beef479d1cb570f8fb3691b48133176282346373d4b66a39b35696"
 }
