@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SpatialMemory",
-  "description": "This dataset contains EEG recordings collected during a computerized spatial span task designed to probe visuo-spatial working memory (VSWM) for sequences. The study examines theta and gamma band oscillatory dynamics during item-level sequence encoding and recall, and compares these processes between younger and older adults to investigate effects of healthy cognitive aging on VSWM.",
+  "description": "EEG dataset investigating visuo-spatial working memory (VSWM) for sequences during a computerized spatial span task in younger and older healthy adults. The study examines whether theta and gamma oscillatory dynamics reflect item-level sequence encoding and recall, and how these processes change in healthy cognitive aging. Results indicate that later gamma power during encoding and theta-gamma phase amplitude coupling during recall track serial position, and may be preserved with aging.",
   "methods_description": "EEG data were collected during a computerized spatial span task. Participants encoded and recalled sequences of spatial locations while oscillatory activity in the theta and gamma frequency bands was recorded. Analysis focused on item-level neural dynamics during both encoding and recall phases, with examination of gamma band power and theta-gamma phase-amplitude coupling across serial positions.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -27,18 +27,17 @@
       "term": "phase amplitude coupling"
     },
     {
-      "term": "cognitive aging"
-    },
-    {
-      "term": "spatial span task"
-    },
-    {
       "term": "healthy aging"
     },
     {
       "term": "Memory, Short-Term",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
+    },
+    {
+      "term": "Aging",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000375"
     }
   ],
   "related_identifiers": [
@@ -63,7 +62,7 @@
     "eeg"
   ],
   "sizes": [
-    "26.9 GB (125 files)"
+    "25.05 GB (125 files)"
   ],
   "formats": [
     ".fdt",
